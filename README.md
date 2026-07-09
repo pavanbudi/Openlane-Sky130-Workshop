@@ -22,3 +22,14 @@ You will be inside home directory initially
 
       <img width="853" height="642" alt="Screenshot 2026-07-09 160729" src="https://github.com/user-attachments/assets/8cd28dc1-f94b-4d8f-9114-73127055e8e8" />
 
+* `libs.tech` folder contain all technology specific files whereas `libs.ref` folder contain files specific to the tool
+
+* Lets see what is inside `sky130_fd_sc_hd`
+
+  <img width="988" height="268" alt="Screenshot 2026-07-09 161945" src="https://github.com/user-attachments/assets/d8915b4f-5f87-4b5f-ab6d-5f80860a9dd5" />
+
+* It has all technology files like `techlef` contains layer information, if we go into `lib` file
+
+ <img width="990" height="417" alt="Screenshot 2026-07-09 162354" src="https://github.com/user-attachments/assets/adc25064-277b-4395-8e7b-e7cc26ac4f14" />
+
+ * We can see all timing files which are defined for many of PVT corners
