@@ -33,3 +33,14 @@ You will be inside home directory initially
  <img width="990" height="417" alt="Screenshot 2026-07-09 162354" src="https://github.com/user-attachments/assets/adc25064-277b-4395-8e7b-e7cc26ac4f14" />
 
  * We can see all timing files which are defined for many of PVT corners
+ * Lets go to `openlane` directory by invoking it, we will be working in it
+
+ <img width="1042" height="222" alt="Screenshot 2026-07-20 124559" src="https://github.com/user-attachments/assets/0f4b18a4-76e0-469a-a226-214dfe8421bf" />
+
+ * Now enter `docker` as it gives ready-to-use virtual environment with all the complex OpenLANE tools already installed, saving you from installation headaches.
+ * Next `pwd` is entered to check present directory(print working directory)
+
+<img width="881" height="416" alt="image" src="https://github.com/user-attachments/assets/21ca1532-baf7-4eb7-9d06-5844baa58552" />
+
+
+ 
