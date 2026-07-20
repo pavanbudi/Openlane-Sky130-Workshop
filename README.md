@@ -46,5 +46,31 @@ You will be inside home directory initially
 
   <img width="695" height="275" alt="Screenshot 2026-07-20 130502" src="https://github.com/user-attachments/assets/f0193200-21c2-477b-a6b4-e929aadab995" />
 
+  * Now we input all packages that are required to run the flow
+  
+    <img width="653" height="275" alt="Screenshot 2026-07-20 131755" src="https://github.com/user-attachments/assets/073b766a-cb72-4347-b0f4-c2afaa49d94d" />
 
+  * All designs that are runned by openlane can be extracted from `design` folder(which has more than 100 designs)
  
+    <img width="850" height="335" alt="Screenshot 2026-07-20 132030" src="https://github.com/user-attachments/assets/405d77de-552e-4eb5-a236-4d41deed11aa" />
+
+* lets go into picorv32a folder
+
+<img width="1135" height="155" alt="Screenshot 2026-07-20 132143" src="https://github.com/user-attachments/assets/c5fb9fc4-54d5-4bf2-8768-9057d5c2d14e" />
+
+* `src` stands for source file where verilog and sdc files are present and `config` file bypasses any configuration that is done already into openlane (allows us in rewriting default values already present in openlane)
+
+* lets see what is inside `config` file
+
+  <img width="1073" height="242" alt="Screenshot 2026-07-20 133327" src="https://github.com/user-attachments/assets/d87c7079-acf9-4286-8371-62877478345e" />
+
+* order of openlane taking values is:
+  1-> default value then 2-> `config` file values then at final `sky130A_sky130..` values
+
+<img width="1270" height="165" alt="Screenshot 2026-07-20 133816" src="https://github.com/user-attachments/assets/3514a80d-d918-4a92-9a27-ff3c28b0c1ba" />
+
+* the values in this file are taken finally
+
+  <img width="562" height="313" alt="Screenshot 2026-07-20 133912" src="https://github.com/user-attachments/assets/cd309383-f555-4b75-8fa8-c6cd6e956972" />
+
+
