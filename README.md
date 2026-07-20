@@ -42,5 +42,9 @@ You will be inside home directory initially
 
 <img width="881" height="416" alt="image" src="https://github.com/user-attachments/assets/21ca1532-baf7-4eb7-9d06-5844baa58552" />
 
+* `flow.tcl`, it says how flow has to go and we do `-interactive` session( complete flow will be executed if we won't use this as openlane is automated flow from RTL to GDS) as we want to know which stage is doing what and comparing results
+
+  <img width="695" height="275" alt="Screenshot 2026-07-20 130502" src="https://github.com/user-attachments/assets/f0193200-21c2-477b-a6b4-e929aadab995" />
+
 
  
