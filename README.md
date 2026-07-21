@@ -74,3 +74,13 @@ You will be inside home directory initially
   <img width="562" height="313" alt="Screenshot 2026-07-20 133912" src="https://github.com/user-attachments/assets/cd309383-f555-4b75-8fa8-c6cd6e956972" />
 
 
+* Now we need to run synthesis but before that a design setup stage is required to prepare file system and data structures as design directory only contains the three base files/folders (src, config.tcl, and the PDK config). The OpenLane flow requires a structured file system where each consecutive step can predictably fetch and store files from specific locations. The preparation stage builds this necessary directory layout.
+* It can de done in following way
+
+<img width="890" height="550" alt="Screenshot 2026-07-21 105956" src="https://github.com/user-attachments/assets/9812210e-a3e4-4664-a515-4e4e854a448c" />
+
+
+* Once the command runs, the first process that occurs is a script called `mergeLef.py.10`
+How and Why: This script merges two distinct LEF (Library Exchange Format) files—the cell-level LEF (`macro.lef`) and the technology-level LEF(`tech.lef`)—into a single, unified file.11
+The Purpose: Merging them ensures that when OpenLane runs its subsequent steps, it does not have to access two separate files to look up cell-level information and layer-level information simultaneously; it can fetch everything from one place.
+  
