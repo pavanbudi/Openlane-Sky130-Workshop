@@ -88,7 +88,7 @@ The Purpose: Merging them ensures that when OpenLane runs its subsequent steps, 
 
   <img width="970" height="326" alt="Screenshot 2026-07-21 112535" src="https://github.com/user-attachments/assets/52f514d2-f4cd-4693-9c53-75036da1eae9" />
 
-* Next step is synthesis
+* Next step is synthesis. This runs `yosys`(process input design files and translate the register-transfer level (RTL) code into a gate-level representation) and `ABC` logic synthesis tool(perform logic optimisation and map the generic gates to the specific technology library cells provided by the PDK).
 
   <img width="840" height="557" alt="Screenshot 2026-07-21 120947" src="https://github.com/user-attachments/assets/a6741d44-e345-42c1-b4ce-013f98e74da8" />
 
