@@ -83,4 +83,10 @@ You will be inside home directory initially
 * Once the command runs, the first process that occurs is a script called `mergeLef.py.10`
 How and Why: This script merges two distinct LEF (Library Exchange Format) files—the cell-level LEF (`macro.lef`) and the technology-level LEF(`tech.lef`)—into a single, unified file.11
 The Purpose: Merging them ensures that when OpenLane runs its subsequent steps, it does not have to access two separate files to look up cell-level information and layer-level information simultaneously; it can fetch everything from one place.
+
+* Now lets check any new file is created in design directory
+
+  <img width="970" height="326" alt="Screenshot 2026-07-21 112535" src="https://github.com/user-attachments/assets/52f514d2-f4cd-4693-9c53-75036da1eae9" />
+
+
   
