@@ -89,4 +89,6 @@ The Purpose: Merging them ensures that when OpenLane runs its subsequent steps, 
   <img width="970" height="326" alt="Screenshot 2026-07-21 112535" src="https://github.com/user-attachments/assets/52f514d2-f4cd-4693-9c53-75036da1eae9" />
 
 * Next step is synthesis
-  
+
+  <img width="840" height="557" alt="Screenshot 2026-07-21 120947" src="https://github.com/user-attachments/assets/a6741d44-e345-42c1-b4ce-013f98e74da8" />
+
