@@ -92,3 +92,14 @@ The Purpose: Merging them ensures that when OpenLane runs its subsequent steps, 
 
   <img width="840" height="557" alt="Screenshot 2026-07-21 120947" src="https://github.com/user-attachments/assets/a6741d44-e345-42c1-b4ce-013f98e74da8" />
 
+* Now we have to find flop ratio equal to ratio of D-flip flops to cells
+
+  <img width="501" height="615" alt="Screenshot 2026-07-23 140125" src="https://github.com/user-attachments/assets/1cdc9f08-8f1f-4bd6-a449-8d4b8fd07508" />
+
+<img width="612" height="258" alt="Screenshot 2026-07-23 140356" src="https://github.com/user-attachments/assets/ea51009a-04cc-4b16-9d98-285f13db5a64" />
+
+* Now lets check result files are created or not , observe netlist created as shown in image at bottom line, similarly you can also check timing reports also
+
+  <img width="883" height="238" alt="Screenshot 2026-07-23 140536" src="https://github.com/user-attachments/assets/4a047466-744d-4d07-b788-d20c4cb0b2ee" />
+
+
