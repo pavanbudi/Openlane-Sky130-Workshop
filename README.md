@@ -102,4 +102,27 @@ The Purpose: Merging them ensures that when OpenLane runs its subsequent steps, 
 
   <img width="883" height="238" alt="Screenshot 2026-07-23 140536" src="https://github.com/user-attachments/assets/4a047466-744d-4d07-b788-d20c4cb0b2ee" />
 
+# Floorplanning
 
+* Opealane has lot of switches to adjust flow direction. Lets look at them first
+
+  <img width="961" height="291" alt="Screenshot 2026-07-24 150324" src="https://github.com/user-attachments/assets/7e7b55cb-a9e6-4949-ac20-cca3971c21fa" />
+
+* If you open it,you can see variables required for each stage(these are the switches). Now lets see where these are set
+
+  <img width="1100" height="110" alt="Screenshot 2026-07-24 150924" src="https://github.com/user-attachments/assets/e6805a58-8246-451d-8916-9cb79de3a7db" />
+
+* It has default values set for floorplan
+
+  <img width="785" height="703" alt="Screenshot 2026-07-24 151001" src="https://github.com/user-attachments/assets/6658262e-818f-487e-8364-106917e61157" />
+
+
+* Now lets run floorplan
+
+  <img width="870" height="537" alt="Screenshot 2026-07-24 151502" src="https://github.com/user-attachments/assets/88a7e1f9-9615-4787-8848-f2c77faa915a" />
+
+* Now like synthesis , lets see what are the files created
+
+  <img width="882" height="301" alt="Screenshot 2026-07-24 151914" src="https://github.com/user-attachments/assets/36723fd5-1a85-462b-9b55-bacd56fe9054" />
+
+* Lets open `config.tcl` which tells all configurations that are taken by flow(type SHIFT+g for going to end of page)
