@@ -65,7 +65,7 @@ You will be inside home directory initially
   <img width="1073" height="242" alt="Screenshot 2026-07-20 133327" src="https://github.com/user-attachments/assets/d87c7079-acf9-4286-8371-62877478345e" />
 
 * order of openlane taking values is:
-  1-> default value then 2-> `config` file values then at final `sky130A_sky130..` values
+  1-> default value then 2-> `config` file values then at final `sky130A_sky130..` values(priority:3>2>1)
 
 <img width="1270" height="165" alt="Screenshot 2026-07-20 133816" src="https://github.com/user-attachments/assets/3514a80d-d918-4a92-9a27-ff3c28b0c1ba" />
 
