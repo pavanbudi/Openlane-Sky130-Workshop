@@ -126,3 +126,23 @@ The Purpose: Merging them ensures that when OpenLane runs its subsequent steps, 
   <img width="882" height="301" alt="Screenshot 2026-07-24 151914" src="https://github.com/user-attachments/assets/36723fd5-1a85-462b-9b55-bacd56fe9054" />
 
 * Lets open `config.tcl` which tells all configurations that are taken by flow(type SHIFT+g for going to end of page)
+
+<img width="1507" height="842" alt="Screenshot 2026-07-24 153520" src="https://github.com/user-attachments/assets/1006440c-21b6-4ae9-8b86-fc5ea0922f56" />
+
+* To see floorplan results
+
+  <img width="877" height="125" alt="Screenshot 2026-07-24 154016" src="https://github.com/user-attachments/assets/bd8270cd-83df-4d5c-b12b-867bb605addd" />
+
+* We can calculate area of die, orientation of blocks
+
+  <img width="763" height="807" alt="Screenshot 2026-07-24 154105" src="https://github.com/user-attachments/assets/86a2221a-1d38-4215-a2e7-d773f6159ecf" />
+
+* To open the layout
+
+<img width="881" height="135" alt="Screenshot 2026-07-24 160227" src="https://github.com/user-attachments/assets/9e0af419-ff90-4602-b6f4-5b2026d0856e" />
+
+* Layout, tikkle (.Tcl) window opens
+
+  <img width="755" height="757" alt="Screenshot 2026-07-24 160818" src="https://github.com/user-attachments/assets/e69b69c4-b17f-4f12-a62c-f893a27220db" />
+
+
