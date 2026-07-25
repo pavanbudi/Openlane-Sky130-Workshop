@@ -145,4 +145,5 @@ The Purpose: Merging them ensures that when OpenLane runs its subsequent steps, 
 
   <img width="755" height="757" alt="Screenshot 2026-07-24 160818" src="https://github.com/user-attachments/assets/e69b69c4-b17f-4f12-a62c-f893a27220db" />
 
-
+# Placement and Routing
+* Placement in openlane occurs in two stages: global, detail. Different tools available to do both of this functionality.
